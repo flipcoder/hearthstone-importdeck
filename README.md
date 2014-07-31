@@ -1,6 +1,8 @@
 # Simple Hearthstone Deck Importer
 
-Very experimental.  Represents about 5 minutes of work. lol
+*Only works on Hearthstone on Linux running under Wine.*
+
+Very experimental.  Represents only about 5 minutes of work. lol
 
 [![Video](http://img.youtube.com/vi/dCxIgY8M4TQ/0.jpg)](http://www.youtube.com/watch?v=dCxIgY8M4TQ)
 
