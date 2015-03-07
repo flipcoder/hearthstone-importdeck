@@ -1,16 +1,16 @@
 # Warlock Zoo
-2x Soulfire
-2x Abusive Sergeant
-2x Argent Squire
-2x Flame Imp
-2x Shieldbearer
-2x Voidwalker
-2x Young Priestess
-2x Dire Wolf Alpha
-2x Knife Juggler
-2x Nerubian Egg
-2x Harvest Golem
-2x Shattered Sun Cleric
-2x Dark Iron Dwarf
-2x Defender of Argus
-2x Doomguard
+2 Soulfire
+2 Abusive Sergeant
+2 Argent Squire
+2 Flame Imp
+2 Shieldbearer
+2 Voidwalker
+2 Young Priestess
+2 Dire Wolf Alpha
+2 Knife Juggler
+2 Nerubian Egg
+2 Harvest Golem
+2 Shattered Sun Cleric
+2 Dark Iron Dwarf
+2 Defender of Argus
+2 Doomguard

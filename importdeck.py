@@ -49,6 +49,16 @@ for card in f.readlines():
     if card.startswith("2x "):
         card = card[len("2x "):]
         count = 2
+    elif card.startswith("2 "):
+        card = card[len("2 "):]
+        count = 2
+    elif card.startswith("1x "):
+        card = card[len("1x "):]
+        count = 1
+    elif card.startswith("1 "):
+        card = card[len("1 "):]
+        count = 1
+
     os.system("xdotool mousemove %s %s" % search_box)
     #time.sleep(0.1)
     os.system("xdotool click 1")
