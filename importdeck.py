@@ -10,7 +10,7 @@ second_match = (1269,332) # gold card (2nd card location)
 
 dirs = [
     "~/Dropbox/decks",
-    os.path.dirname(os.path.join(sys.argv[0], "decks"))
+    os.path.join(os.path.split(sys.argv[0])[0], "decks")
 ]
 
 deck = None
@@ -20,20 +20,20 @@ except:
     print("Run program with: ./importdeck.py [deckname]")
     print("  Example: ./importdeck.py zoo")
     sys.exit(1)
-    
+
 f = None
 for d in dirs:
     d = os.path.expanduser(d)
     try:
         f = open(os.path.join(d,"%s.txt" % sys.argv[1]))
     except FileNotFoundError:
-        pass
+        continue
     break
 
 if not f:
     print("Deck not found.")
     sys.exit(1)
-    
+
 os.system("xdotool search --onlyvisible --classname Hearthstone windowfocus")
 time.sleep(0.1)
 for card in f.readlines():
