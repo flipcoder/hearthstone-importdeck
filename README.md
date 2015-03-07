@@ -17,7 +17,9 @@ Add your deck lists to the deck folder.
 
 Load it using:
 
-  ./import-deck.py zoo
+```
+    ./import-deck.py zoo
+```
 
 Where 'zoo' refers to zoo.txt in the decks folder.
 
